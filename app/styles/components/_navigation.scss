@@ -1,0 +1,18 @@
+.top-bar, .top-bar ul{
+    background-color:$navbg;
+    
+}
+
+.top-bar{
+    .menu-text{
+        color:$navtextcol;
+    }
+    .menu> .menu-text > a{
+        display: inline;
+        padding: 0;
+    }
+
+    .active-link{
+        font-weight: bold;
+    }
+}
